@@ -1,0 +1,51 @@
+html {
+  background-color: white;
+  
+}
+
+body {
+  width: 1200px;
+  margin: 5 auto;
+  background-color: MediumSeaGreen;
+  padding: 1 100px 150px 150px;
+  border: 10px double blue;
+}
+
+button {
+  border-radius: 7px;
+  background-color: DodgerBlue; 
+  border: 7px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin:12px;
+}
+div {
+  align-content: center;
+  margin:  10px;
+  color: darkred;
+  padding: 0.1 1px 1px 1px;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+span {
+  font-size: 20px;
+  color: darkred;
+}
+

@@ -1,0 +1,42 @@
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  		<title>Guess the button</title>
+	</head>
+	<body>
+    	<div class="card text-center">
+   			<div class="card-body">
+   				<div class="card-body">
+	       			<h2 class="card-title"> Let's play: Guess the button part 2!</h2>
+	       		</div>
+	   		</div>
+	   	</div>
+    	<div class="card">
+    		<div class="card-body">
+	       		<p class="card-text">Rule: to play this game, you need to insert a number and then click Generate buttons! Then you need to choose one of the displayed buttons. Good luck!</p>
+	       	</div>
+	   	</div><br>
+	   	<div class="row g-3 align-items-center">
+		  <div class="col-auto">
+		    <label class="col-form-label">Enter the number of buttons.</label>
+		  </div>
+		  <div class="col-auto">
+		    <input type="number" class="form-control" id="buttons">
+		  </div>
+		  <div class="col-auto">
+		    <span class="form-text">
+		      Must be 2 - n number of buttons.
+		    </span>
+		  </div>
+		</div><br>
+		<div class="d-grid gap-2 d-md-block">
+  			<button class="btn btn-primary" type="button" onClick="return generateButtons()">Generate buttons!</button>
+  		</div>
+  		<div id="buttons_list">
+	   	</div>
+  		<link href="guess_the_button2.css" rel="stylesheet">	
+	   	<script src="guess_the_button2.js"></script>
+	</body>
+</html>
