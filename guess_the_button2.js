@@ -6,9 +6,9 @@ function generateButtons() {
     btn.innerHTML = "Guess";
     btn.onclick = function Display() {
       if (i === winNumber) {
-        document.getElementById("buttons_list").innerHTML="You won";
+        document.getElementById("buttons_list").innerHTML = "You won";
       } else {
-        document.getElementById("buttons_list").innerHTML="You lose";
+        document.getElementById("buttons_list").innerHTML = "You lose";
       }
     }
     document.getElementById("buttons_list").appendChild(btn);
